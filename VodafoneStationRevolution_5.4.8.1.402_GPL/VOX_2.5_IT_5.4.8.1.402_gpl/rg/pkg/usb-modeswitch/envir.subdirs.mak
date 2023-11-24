@@ -1,0 +1,2 @@
+JMK_WARN2ERR=n
+JMK_CFLAGS_REMOVE=-Wstrict-prototypes
