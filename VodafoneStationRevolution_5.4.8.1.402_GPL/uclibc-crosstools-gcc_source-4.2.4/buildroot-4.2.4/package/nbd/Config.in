@@ -1,0 +1,25 @@
+config BR2_PACKAGE_NBD
+	bool "nbd"
+	select BR2_PACKAGE_LIBGLIB2
+	help
+	  NBD is a set of utilities to configure network block devices,
+	  allowing access to remote block devices over TCP/IP network.
+
+	  Depends on glib.
+
+	  http://nbd.sf.net/
+
+if BR2_PACKAGE_NBD
+
+config BR2_NBD_CLIENT
+	bool "nbd client"
+	default y
+	help
+	  the client part of NBD.
+
+config BR2_NBD_SERVER
+	bool "nbd server"
+	help
+	  the server part of NBD.
+
+endif
