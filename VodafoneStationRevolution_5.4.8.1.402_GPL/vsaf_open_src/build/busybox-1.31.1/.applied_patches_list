@@ -1,0 +1,9 @@
+0001-networking-libiproute-use-linux-if_packet.h-instead-.patch
+0002-Makefile.flags-strip-non-l-arguments-returned-by-pkg.patch
+0003-date-Use-64-prefix-syscall-if-we-have-to.patch
+0004-time-Use-64-prefix-syscall-if-we-have-to.patch
+0005-runsv-Use-64-prefix-syscall-if-we-have-to.patch
+0006-Remove-syscall-wrappers-around-clock_gettime-closes-.patch
+0007-Remove-stime-function-calls.patch
+0008-Older-2-6-kernel-compatibility.patch
+0009-loop.c-fix-build-for-toolchains-without-O_CLOEXEC.patch

@@ -1,0 +1,276 @@
+The target system is: Linux -  - 
+The host system is: Linux - 5.4.0-109-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include;-pipe;-Os;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-g++ 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include;-pipe;-Os;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1057622934/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1057622934.dir/build.make CMakeFiles/cmTryCompileExec1057622934.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1057622934.dir/testCCompiler.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec1057622934.dir/testCCompiler.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1057622934
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1057622934.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os      CMakeFiles/cmTryCompileExec1057622934.dir/testCCompiler.c.o  -o cmTryCompileExec1057622934 -rdynamic 
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3691875257/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3691875257.dir/build.make CMakeFiles/cmTryCompileExec3691875257.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3691875257
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3691875257.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os    -v CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3691875257 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/mips-unknown-linux-uclibc-gcc
+COLLECT_LTO_WRAPPER=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper
+Target: mips-unknown-linux-uclibc
+Configured with: /toolchain/.build/src/gcc-6.3.0/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mips-unknown-linux-uclibc --prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc --with-sysroot=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-languages=c,c++ --with-arch=mips32 --with-abi=32 --with-float=soft --with-pkgversion='crosstool-NG crosstool-ng-1.23.0' --disable-__cxa_atexit --disable-libmudflap --disable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpfr=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpc=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-isl=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --with-mips-plt --disable-nls --disable-multilib --with-local-prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-long-long
+Thread model: posix
+gcc version 6.3.0 (crosstool-NG crosstool-ng-1.23.0) 
+COMPILER_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/bin/
+LIBRARY_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=32' '-msoft-float' '-EB' '-pipe' '-march=mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-I' '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include' '-pipe' '-Os' '-v' '-o' 'cmTryCompileExec3691875257' '-rdynamic' '-mllsc' '-mplt' '-mips32' '-mno-shared'
+ /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/collect2 -plugin /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/liblto_plugin.so -plugin-opt=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLUS5YW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot --eh-frame-hdr -EB -mips32 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32btsmip -o cmTryCompileExec3691875257 /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtbegin.o -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0 -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtend.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=32' '-msoft-float' '-EB' '-pipe' '-march=mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-I' '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include' '-pipe' '-Os' '-v' '-o' 'cmTryCompileExec3691875257' '-rdynamic' '-mllsc' '-mplt' '-mips32' '-mno-shared'
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mips-unknown-linux-uclibc-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3691875257/fast"]
+  ignore line: [make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3691875257.dir/build.make CMakeFiles/cmTryCompileExec3691875257.dir/build]
+  ignore line: [make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp']
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3691875257]
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3691875257.dir/link.txt --verbose=1]
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os    -v CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3691875257 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/mips-unknown-linux-uclibc-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper]
+  ignore line: [Target: mips-unknown-linux-uclibc]
+  ignore line: [Configured with: /toolchain/.build/src/gcc-6.3.0/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mips-unknown-linux-uclibc --prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc --with-sysroot=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-languages=c,c++ --with-arch=mips32 --with-abi=32 --with-float=soft --with-pkgversion='crosstool-NG crosstool-ng-1.23.0' --disable-__cxa_atexit --disable-libmudflap --disable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpfr=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpc=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-isl=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --with-mips-plt --disable-nls --disable-multilib --with-local-prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (crosstool-NG crosstool-ng-1.23.0) ]
+  ignore line: [COMPILER_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=32' '-msoft-float' '-EB' '-pipe' '-march=mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-I' '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include' '-pipe' '-Os' '-v' '-o' 'cmTryCompileExec3691875257' '-rdynamic' '-mllsc' '-mplt' '-mips32' '-mno-shared']
+  link line: [ /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/collect2 -plugin /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/liblto_plugin.so -plugin-opt=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLUS5YW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot --eh-frame-hdr -EB -mips32 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32btsmip -o cmTryCompileExec3691875257 /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtbegin.o -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0 -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtend.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLUS5YW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EB] ==> ignore
+    arg [-mips32] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32btsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3691875257] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3691875257.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtend.o] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc/mips-unknown-linux-uclibc/6.3.0]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/mips-unknown-linux-uclibc/lib]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc/mips-unknown-linux-uclibc/6.3.0;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/mips-unknown-linux-uclibc/lib;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2884088861/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2884088861.dir/build.make CMakeFiles/cmTryCompileExec2884088861.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2884088861.dir/testCXXCompiler.cxx.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-g++    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec2884088861.dir/testCXXCompiler.cxx.o -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2884088861
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2884088861.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-g++   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os      CMakeFiles/cmTryCompileExec2884088861.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2884088861 -rdynamic 
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1125001062/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1125001062.dir/build.make CMakeFiles/cmTryCompileExec1125001062.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-g++    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1125001062
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1125001062.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-g++   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os    -v CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1125001062 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/mips-unknown-linux-uclibc-g++
+COLLECT_LTO_WRAPPER=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper
+Target: mips-unknown-linux-uclibc
+Configured with: /toolchain/.build/src/gcc-6.3.0/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mips-unknown-linux-uclibc --prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc --with-sysroot=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-languages=c,c++ --with-arch=mips32 --with-abi=32 --with-float=soft --with-pkgversion='crosstool-NG crosstool-ng-1.23.0' --disable-__cxa_atexit --disable-libmudflap --disable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpfr=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpc=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-isl=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --with-mips-plt --disable-nls --disable-multilib --with-local-prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-long-long
+Thread model: posix
+gcc version 6.3.0 (crosstool-NG crosstool-ng-1.23.0) 
+COMPILER_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/bin/
+LIBRARY_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=32' '-msoft-float' '-EB' '-pipe' '-march=mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-I' '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include' '-pipe' '-Os' '-v' '-o' 'cmTryCompileExec1125001062' '-rdynamic' '-shared-libgcc' '-mllsc' '-mplt' '-mips32' '-mno-shared'
+ /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/collect2 -plugin /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/liblto_plugin.so -plugin-opt=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccatQXW5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot --eh-frame-hdr -EB -mips32 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32btsmip -o cmTryCompileExec1125001062 /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtbegin.o -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0 -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtend.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=32' '-msoft-float' '-EB' '-pipe' '-march=mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-I' '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include' '-pipe' '-Os' '-v' '-o' 'cmTryCompileExec1125001062' '-rdynamic' '-shared-libgcc' '-mllsc' '-mplt' '-mips32' '-mno-shared'
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mips-unknown-linux-uclibc-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1125001062/fast"]
+  ignore line: [make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1125001062.dir/build.make CMakeFiles/cmTryCompileExec1125001062.dir/build]
+  ignore line: [make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp']
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/avro-c-1.7.7/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-g++    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1125001062]
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1125001062.dir/link.txt --verbose=1]
+  ignore line: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-g++   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os    -v CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1125001062 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/mips-unknown-linux-uclibc-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper]
+  ignore line: [Target: mips-unknown-linux-uclibc]
+  ignore line: [Configured with: /toolchain/.build/src/gcc-6.3.0/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=mips-unknown-linux-uclibc --prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc --with-sysroot=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-languages=c,c++ --with-arch=mips32 --with-abi=32 --with-float=soft --with-pkgversion='crosstool-NG crosstool-ng-1.23.0' --disable-__cxa_atexit --disable-libmudflap --disable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpfr=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-mpc=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --with-isl=/toolchain/.build/mips-unknown-linux-uclibc/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --with-mips-plt --disable-nls --disable-multilib --with-local-prefix=/home/crosstool/x-tools/mips-unknown-linux-uclibc/mips-unknown-linux-uclibc/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (crosstool-NG crosstool-ng-1.23.0) ]
+  ignore line: [COMPILER_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib/:/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=32' '-msoft-float' '-EB' '-pipe' '-march=mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-I' '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include' '-pipe' '-Os' '-v' '-o' 'cmTryCompileExec1125001062' '-rdynamic' '-shared-libgcc' '-mllsc' '-mplt' '-mips32' '-mno-shared']
+  link line: [ /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/collect2 -plugin /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/liblto_plugin.so -plugin-opt=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccatQXW5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot --eh-frame-hdr -EB -mips32 -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -melf32btsmip -o cmTryCompileExec1125001062 /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtbegin.o -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0 -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib -L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtend.o /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../libexec/gcc/mips-unknown-linux-uclibc/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccatQXW5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EB] ==> ignore
+    arg [-mips32] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32btsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1125001062] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib]
+    arg [-L/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib] ==> dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec1125001062.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/crtend.o] ==> ignore
+    arg [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc/mips-unknown-linux-uclibc/6.3.0]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/lib] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/mips-unknown-linux-uclibc/lib]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib]
+  collapse library dir [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib] ==> [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc/mips-unknown-linux-uclibc/6.3.0;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/lib/gcc;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/mips-unknown-linux-uclibc/lib;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/lib;/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+

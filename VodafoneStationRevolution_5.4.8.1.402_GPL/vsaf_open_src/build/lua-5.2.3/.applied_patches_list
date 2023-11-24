@@ -1,0 +1,6 @@
+lua-01-root-path.patch
+lua-02-shared-libs-for-lua.patch
+lua-03-support-different-endianess.patch
+lua-04-lua-pc.patch
+lua-11-linenoise.patch
+lua-12-debug-info.patch

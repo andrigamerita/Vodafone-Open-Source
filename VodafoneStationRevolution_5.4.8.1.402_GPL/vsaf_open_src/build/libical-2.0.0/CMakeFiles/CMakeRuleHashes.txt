@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+f0086c5250f787b4630ecc9eb5c5afed src/libical/CMakeFiles/ical-header
+43316c6ab3d21f33b759be7b408abca6 src/libical/icalderivedparameter.c
+f8c535c0500176af6cafd89582d269fd src/libical/icalderivedparameter.h
+7d9befcdac333fc4c40c142b74c1787b src/libical/icalderivedproperty.c
+040abc605aa96577fec06d59dbd09ef4 src/libical/icalderivedproperty.h
+0780dd0b5c12f88aec76e4f64f415537 src/libical/icalderivedvalue.c
+bbecb47ca2246bf3b89bdafa63557a8a src/libical/icalderivedvalue.h
+f561d6787561635b23f63efa0d1ddad5 src/libical/icalrestriction.c
+a213bb4a3621fe076085fa770c950676 src/libicalss/CMakeFiles/icalss-header

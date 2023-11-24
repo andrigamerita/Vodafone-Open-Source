@@ -1,0 +1,256 @@
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4073612531/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4073612531.dir/build.make CMakeFiles/cmTryCompileExec4073612531.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4073612531.dir/CheckIncludeFiles.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec4073612531.dir/CheckIncludeFiles.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/endian.h: No such file or directory
+ #include <sys/endian.h>
+                        ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec4073612531.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4073612531.dir/CheckIncludeFiles.c.o' failed
+make[3]: *** [CMakeFiles/cmTryCompileExec4073612531.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4073612531/fast' failed
+make[2]: *** [cmTryCompileExec4073612531/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(){return 0;}
+
+Determining if the function backtrace exists failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3406723205/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3406723205.dir/build.make CMakeFiles/cmTryCompileExec3406723205.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3406723205.dir/CheckFunctionExists.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=backtrace   -o CMakeFiles/cmTryCompileExec3406723205.dir/CheckFunctionExists.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3406723205
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3406723205.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=backtrace    CMakeFiles/cmTryCompileExec3406723205.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3406723205 -rdynamic 
+CMakeFiles/cmTryCompileExec3406723205.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0x18): undefined reference to `backtrace'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec3406723205.dir/build.make:88: recipe for target 'cmTryCompileExec3406723205' failed
+make[3]: *** [cmTryCompileExec3406723205] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3406723205/fast' failed
+make[2]: *** [cmTryCompileExec3406723205/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function GetNumberFormat exists failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2169340903/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2169340903.dir/build.make CMakeFiles/cmTryCompileExec2169340903.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2169340903.dir/CheckFunctionExists.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=GetNumberFormat   -o CMakeFiles/cmTryCompileExec2169340903.dir/CheckFunctionExists.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2169340903
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2169340903.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=GetNumberFormat    CMakeFiles/cmTryCompileExec2169340903.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2169340903 -rdynamic -lkernel32.lib 
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/bin/ld: cannot find -lkernel32.lib
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2169340903.dir/build.make:88: recipe for target 'cmTryCompileExec2169340903' failed
+make[3]: *** [cmTryCompileExec2169340903] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2169340903/fast' failed
+make[2]: *** [cmTryCompileExec2169340903/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of wint_t failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3193702852/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3193702852.dir/build.make CMakeFiles/cmTryCompileExec3193702852.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3193702852.dir/SIZEOF_WINT_T.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec3193702852.dir/SIZEOF_WINT_T.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CheckTypeSize/SIZEOF_WINT_T.c
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CheckTypeSize/SIZEOF_WINT_T.c:17:22: error: 'wint_t' undeclared here (not in a function)
+ #define SIZE (sizeof(wint_t))
+                      ^
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CheckTypeSize/SIZEOF_WINT_T.c:19:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTryCompileExec3193702852.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3193702852.dir/SIZEOF_WINT_T.c.o' failed
+make[3]: *** [CMakeFiles/cmTryCompileExec3193702852.dir/SIZEOF_WINT_T.c.o] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3193702852/fast' failed
+make[2]: *** [cmTryCompileExec3193702852/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CheckTypeSize/SIZEOF_WINT_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(wint_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec824051499/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec824051499.dir/build.make CMakeFiles/cmTryCompileExec824051499.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec824051499.dir/CheckSymbolExists.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec824051499.dir/CheckSymbolExists.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec824051499
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec824051499.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os      CMakeFiles/cmTryCompileExec824051499.dir/CheckSymbolExists.c.o  -o cmTryCompileExec824051499 -rdynamic 
+CMakeFiles/cmTryCompileExec824051499.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x4): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text.startup+0x8): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec824051499.dir/build.make:88: recipe for target 'cmTryCompileExec824051499' failed
+make[3]: *** [cmTryCompileExec824051499] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec824051499/fast' failed
+make[2]: *** [cmTryCompileExec824051499/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+File /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2020400811/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2020400811.dir/build.make CMakeFiles/cmTryCompileExec2020400811.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2020400811.dir/CheckFunctionExists.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2020400811.dir/CheckFunctionExists.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2020400811
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2020400811.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2020400811.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2020400811 -rdynamic -lpthreads 
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/opt/ext-toolchain/bin/../lib/gcc/mips-unknown-linux-uclibc/6.3.0/../../../../mips-unknown-linux-uclibc/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2020400811.dir/build.make:88: recipe for target 'cmTryCompileExec2020400811' failed
+make[3]: *** [cmTryCompileExec2020400811] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2020400811/fast' failed
+make[2]: *** [cmTryCompileExec2020400811/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_attr_get_np exists in the pthread failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec861957641/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec861957641.dir/build.make CMakeFiles/cmTryCompileExec861957641.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec861957641.dir/CheckFunctionExists.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=pthread_attr_get_np   -o CMakeFiles/cmTryCompileExec861957641.dir/CheckFunctionExists.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec861957641
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec861957641.dir/link.txt --verbose=1
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os  -DCHECK_FUNCTION_EXISTS=pthread_attr_get_np    CMakeFiles/cmTryCompileExec861957641.dir/CheckFunctionExists.c.o  -o cmTryCompileExec861957641 -rdynamic -lpthread 
+CMakeFiles/cmTryCompileExec861957641.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0x18): undefined reference to `pthread_attr_get_np'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec861957641.dir/build.make:88: recipe for target 'cmTryCompileExec861957641' failed
+make[3]: *** [cmTryCompileExec861957641] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec861957641/fast' failed
+make[2]: *** [cmTryCompileExec861957641/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h;pthread_np.h exist failed with the following output:
+Change Dir: /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec991364965/fast"
+make[2]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec991364965.dir/build.make CMakeFiles/cmTryCompileExec991364965.dir/build
+make[3]: Entering directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/cmake -E cmake_progress_report /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec991364965.dir/CheckIncludeFiles.c.o
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/bin/mips-unknown-linux-uclibc-gcc   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/host/usr/mips-buildroot-linux-uclibc/sysroot/usr/include -pipe -Os     -o CMakeFiles/cmTryCompileExec991364965.dir/CheckIncludeFiles.c.o   -c /home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:24: fatal error: pthread_np.h: No such file or directory
+ #include <pthread_np.h>
+                        ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec991364965.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec991364965.dir/CheckIncludeFiles.c.o' failed
+make[3]: *** [CMakeFiles/cmTryCompileExec991364965.dir/CheckIncludeFiles.c.o] Error 1
+make[3]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec991364965/fast' failed
+make[2]: *** [cmTryCompileExec991364965/fast] Error 2
+make[2]: Leaving directory '/home/liborklocan/Projects/sagemcom/clones/work/vsaf_work/vf_vox_2_5_it_build/build/libical-2.0.0/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <pthread.h>
+#include <pthread_np.h>
+
+
+int main(){return 0;}
+
